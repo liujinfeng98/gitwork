@@ -21,3 +21,5 @@ git push -u origin master
 git remote set-url origin https://github.com/liujinfeng98/gitwork.git
 
 git clone git://github.com/liujinfeng98/gitwork.git
+
+git pull
