@@ -12,4 +12,12 @@ echo 'git commit -m 提交git shell'
 git config --global color.ui true
 git status
 git diff readme.sh
+#local to remote github
+git init
+git --barc init
+git remote add origin git@github.com/liujinfeng98:gitwork.git
+git push -u origin master
 
+git remote set-url origin https://github.com/liujinfeng98/gitwork.git
+
+git clone git://github.com/liujinfeng98/gitwork.git
