@@ -28,7 +28,11 @@ git remote set-url origin https://github.com/liujinfeng98/gitwork.git
 #克隆
 git clone git://github.com/liujinfeng98/gitwork.git
 #推送到远端
+#cd ~/gitworktest/gitwork
 git push -u origin master
 #从服务器段更新
 git pull https://github.com/liujinfeng98/gitwork.git
+
+#cd ~/selflife_git
+git remote set-url origin https://github.com/liujinfeng98/selflife.git
 
