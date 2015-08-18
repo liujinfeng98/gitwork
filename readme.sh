@@ -21,11 +21,14 @@ git diff readme.sh
 #local to remote github
 git init
 git --barc init
+
 git remote add origin git@github.com/liujinfeng98:gitwork.git
-git push -u origin master
-
+#设置远端地址
 git remote set-url origin https://github.com/liujinfeng98/gitwork.git
-
+#克隆
 git clone git://github.com/liujinfeng98/gitwork.git
+#推送到远端
+git push -u origin master
+#从服务器段更新
+git pull https://github.com/liujinfeng98/gitwork.git
 
-git pull
